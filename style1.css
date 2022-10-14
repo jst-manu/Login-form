@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(b.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins''Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: black;
+
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+   
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+     border-radius: 10px;
+    
+    shape-image-threshold: inherit;
+    
+
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    box-shadow: 0 5px 10px rgb(0, 102, 255);
+}
+.log{
+    background-color: rgb(161, 144, 144);
+    text-decoration-color: rgb(0, 0, 0);
+     
+}
+.avatar:hover{
+    transform:rotate(360deg);
+    transition: .4s;}
+h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 23px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.loginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #080808;
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(0, 102, 255);
+
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(255, 0, 0);
+    color: white;
+     
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 9, 9);
+    font-weight: 600;
+     left: 50px;
+     
+     
+}
+
+.loginbox a:hover{
+    color: rgb(4, 50, 255);
+    text-decoration: underline;
+
+}
+.error{
+    color: red;
+    font-size: 16px;
+    margin-left: 12%;
+    margin-right: 20%;
+    font-weight: 600;
+}
