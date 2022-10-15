@@ -4,38 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Login Page</title>
 </head>
-<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" type="text/css" href="style1.css">
 <script src="script1.js"></script>
 <body>
-    <div class="Registerbox">
+    <div class="loginbox">
         <img src="u.png" class="avatar"><br>
-        <h1>Register Below</h1>
-        <div class="error" id="errorBox"></div>
-        <form name="register"  action="register.php" method="Post" onsubmit="return fun2()">
-        <p>User Name</p>
-        <input type="text" name="username2" placeholder="Enter Your Name">
-        <p>Email</p>
-        <input type="email" name="email" placeholder="Enter Your Email">
-        <p>Mobile Number</p>
-        <input type="number" name="mobile" placeholder="Enter Your Number">
-        <p>Password</p>
-        <input type="password" name="password2" placeholder="Enter Your Password">
-        <p>Conform Password</p>
-        <input type="password" name="conpassword" placeholder="Re-Enter Password">
-         
         
-        <input type="Submit" name=""value="Register">
-        <br>
-        <a href="index.html">Already Registered, Login!</a>
+        <h1>Login Here</h1><br>
+        <div class="error" id="errorBox"></div>
+        <form name="login" onsubmit="return fun1()">
+            <p>User Name</p>
+            <input type="text" name="username1" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="password1"  placeholder="Enter Password">
+            
+            
+            <input type="submit" name="" value="LOGIN" class="log"></br>
+            <a href="#"> Forgot Your Password ? </a> <br>
+            <a href="new.html">New User ?</a>
 
-    
-    
-    
-    </form>
+         
+        </form>
 
     </div>
-    
 </body>
 </html>
