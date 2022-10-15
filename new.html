@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,13 @@
     <title>Registration</title>
 </head>
 <link rel="stylesheet" href="style2.css">
-<script src="script2.js"></script>
+<script src="script1.js"></script>
 <body>
     <div class="Registerbox">
         <img src="u.png" class="avatar"><br>
         <h1>Register Below</h1>
         <div class="error" id="errorBox"></div>
-        <form name="register" onsubmit="return fun2()">
+        <form name="register"  action="register.php" method="Post" onsubmit="return fun2()">
         <p>User Name</p>
         <input type="text" name="username2" placeholder="Enter Your Name">
         <p>Email</p>
@@ -24,7 +24,7 @@
         <input type="password" name="password2" placeholder="Enter Your Password">
         <p>Conform Password</p>
         <input type="password" name="conpassword" placeholder="Re-Enter Password">
-        <div id="errorBox"></div>
+         
         
         <input type="Submit" name=""value="Register">
         <br>
